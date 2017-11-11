@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  height: 50px;
+  background-color: #6abae7;
+  color: white;
+}
+
+.menu ul {
+  background-color: #6abae7;
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px 15px;
+  width: 70px;
+}
+
+.menu ul ul {
+  position: absolute;
+  top: 50px;
+}
+
+.menu .subitem li {
+  display: block;
+}
+
+.menu li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*estilos que cambian con js*/
+.ocult {
+  display: none;
+}
+
+.show {
+  display: block;
+}
